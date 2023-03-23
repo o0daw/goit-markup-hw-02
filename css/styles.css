@@ -1,0 +1,42 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+.list {
+    list-style: none;
+}
+
+.heder {
+  background-color: #e7e9fc;
+}
+
+.header-navigation {
+}
+
+.header-logo {
+}
+
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+
+.header-item {
+}
+
+.header-link {
+}
+
+.header-contact {
+}
+
+.header-mail {
+}
+
+.header-phone {
+}
