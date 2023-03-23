@@ -13,29 +13,46 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body> 
-    <header class="heder">
-      <nav class="header-navigation">
-      <a href="./index.html" class="header-logo">
-        <img src="./images/Logo.svg" alt="webstudio logo" />
-      </a>  
-        <ul class="header-list list">
-          <li class="header-item"><a class="header-link link" href=""></a>Studio</li>
-          <li class="header-item"><a class="header-link link" href=""></a>Portfolio</li>
-          <li class="header-item"><a class="header-link link" href=""></a>Contacts</li>
+  <body>
+    <header>
+      
+      <a href="./index.html">
+          <img src="./images/Logo.svg" alt="webstudio logo" />
+   </a>
+        
+   <nav class="navigation">
+        <ul class="list">
+          
+        <li> <a class="navigation link" href=./index.html >Studio</a>
+           
+            
+          </li>
+          <li><a class="navigation link" href="./portfolio.html" >Portfolio</a>
+           
+          </li>
+          <li><a class="navigation link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul class="header-contact">
-          <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="header-phone" href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
+        <ul class="list">
+          <li>
+            <a class="header-contact-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-contact-phone link" href="tel:+110001111111"
+        >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
+      <section class="hero list">
         <h2 hidden>achievements</h2>
-        <ul>
+        <ul class="hero-button list">
           <li><button type="button">All</button></li>
           <li><button type="button">Web Site</button></li>
           <li><button type="button">app</button></li>
@@ -43,13 +60,14 @@
           <li><button type="button">Marketing</button></li>
         </ul>
       </section>
-      <section>
-        <ul>
+      <section class="hero-main">
+        <ul class="hero-img list">
           <li>
             <img src="images/1.jpg" alt="Banking" width="360" height="300" />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="hero-main-h3">Banking App Interface Concept</h3>
+            <p class="hero-main-bottom">App</p>
           </li>
+
           <li>
             <img
               src="images/2.jpg"
@@ -57,67 +75,71 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="hero-main-h3">Cashless Payment</h3>
+            <p class="hero-main-bottom">Marketing</p>
           </li>
+
           <li>
             <img src="images/3.jpg" alt="Meditation" width="360" height="300" />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="hero-main-h3">Meditation App</h3>
+            <p class="hero-main-bottom">App</p>
           </li>
+
           <li>
             <img src="images/4.jpg" alt="Taxi" width="360" height="300" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="hero-main-h3">Taxi Service</h3>
+            <p class="hero-main-bottom">Marketing</p>
           </li>
+
           <li>
             <img src="images/5.jpg" alt="phone" width="360" height="300" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="hero-main-h3">Screen Illustrations</h3>
+            <p class="hero-main-bottom">Design</p>
           </li>
+
           <li>
             <img src="images/6.jpg" alt="Online" width="360" height="300" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="hero-main-h3">Online Courses</h3>
+            <p class="hero-main-bottom">Marketing</p>
           </li>
+
           <li>
             <img
               src="images/7.jpg"
               alt="Instagram Stories"
               width="360"
-              height="300"
-            />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+              height="300" />
+          <h3 class="hero-main-h3">Instagram Stories Concept</h3>
+            <p class="hero-main-bottom">Design</p>
           </li>
+
           <li>
             <img
               src="images/8.jpg"
               alt="Organic Food"
               width="360"
-              height="300"
-            />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+              height="300" />
+            <h3 class="hero-main-h3">Organic Food</h3>
+            <p class="hero-main-bottom">Web Site</p>
           </li>
           <li>
+
             <img
               src="images/9.jpg"
               alt="Cup of Coffee"
               width="360"
-              height="300"
-            />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+              height="300" />
+            <h3 class="hero-main-h3">Fresh Coffee</h3>
+            <p class="hero-main-bottom">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer list">
       <img src="./images/Logo.svg" alt="logo" />
 
-      <p>
+      <p class="footer-bottom">
         Increase the flow of customers and <br />
         sales for your business with digital <br />
         marketing & growth solutions.

@@ -1,42 +1,106 @@
+:root {
+  --second-footer-color: #f4f4fd;
+  --second-link-color: #404BBF;
+}
+
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+  color: #2e2f42;
 }
 .list {
-    list-style: none;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
-.heder {
-  background-color: #e7e9fc;
-}
+/**--------------------HEADER------------------**/
 
-.header-navigation {
-}
-
-.header-logo {
-}
-
-.header-list {
-  font-weight: 500;
+.navigation {
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navigator:is(:hover, :focus) {
+  color:var(--second-link-color)
+}
 
-  /* NAVY BLUE */
 
+
+.header-contact-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-contact-mail:is(:hover, :focus) {
+  color: fuchsia;
+}
+
+.header-contact-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-contact-phone:is(:hover, :focus) {
+  color: fuchsia;
+}
+
+/**--------------------HERO BTN------------------**/
+
+.hero {
+}
+
+.hero-button {
+  width: 126px;
+  height: 2.62;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.hero-button:hover {
+  color: #404bbf;
+}
+
+/**--------------------HERO img------------------**/
+
+.hero-main {
+}
+.hero-main-h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.header-item {
+.hero-main-bottom {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.header-link {
+/**--------------------FOOTER------------------**/
+
+.footer {
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 1764px;
+  background: #2e2f42;
 }
 
-.header-contact {
-}
+.footer-bottom {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
-.header-mail {
-}
-
-.header-phone {
+  color: var(--second-footer-color);
 }
