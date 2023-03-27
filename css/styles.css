@@ -1,6 +1,7 @@
 :root {
   --second-footer-color: #f4f4fd;
   --second-link-color: #404BBF;
+  --second-color-buttom: #FFFFFF;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
   color: #434455;
 }
 .header-contact-mail:is(:hover, :focus) {
-  color: fuchsia;
+  color: #404BBF;
 }
 
 .header-contact-phone {
@@ -48,7 +49,7 @@ body {
   color: #434455;
 }
 .header-contact-phone:is(:hover, :focus) {
-  color: fuchsia;
+  color: #404BBF;
 }
 
 /**--------------------HERO BTN------------------**/
@@ -62,11 +63,13 @@ body {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-}
-.hero-button:hover {
+  cursor: pointer;
   color: #404bbf;
 }
-
+.hero-button:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: var(--second-color-buttom);
+}
 /**--------------------HERO img------------------**/
 
 .hero-main {
