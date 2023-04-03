@@ -3,6 +3,7 @@
   --second-link-color: #404bbf;
   --second-color-buttom: #ffffff;
   --body-background-color: #ffffff;
+  --logo-color: #4d5ae5;
 }
 
 body {
@@ -19,7 +20,16 @@ body {
 }
 
 /**--------------------HEADER------------------**/
-
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  
+}
 .navigation {
   font-size: 16px;
   line-height: 1.5;
