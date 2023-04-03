@@ -2,14 +2,14 @@
   --second-footer-color: #f4f4fd;
   --second-link-color: #404bbf;
   --second-color-buttom: #ffffff;
-  --bacground-color: #FFFFFF;
+  --body-background-color: #FFFFFF;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color:#434455;
-  background:var(--bacground-color) ;
+  background-color: var(--body-background-color) ;
 }
 .list {
   list-style: none;
