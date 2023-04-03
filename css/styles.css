@@ -1,13 +1,15 @@
 :root {
   --second-footer-color: #f4f4fd;
-  --second-link-color: #404BBF;
-  --second-color-buttom: #FFFFFF;
+  --second-link-color: #404bbf;
+  --second-color-buttom: #ffffff;
+  --bacground-color: #FFFFFF;
 }
 
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #2e2f42;
+  color:#434455;
+  background:var(--bacground-color) ;
 }
 .list {
   list-style: none;
@@ -25,10 +27,8 @@ body {
   color: #2e2f42;
 }
 .navigator:is(:hover, :focus) {
-  color:var(--second-link-color)
+  color: var(--second-link-color);
 }
-
-
 
 .header-contact-mail {
   font-weight: 400;
@@ -38,7 +38,7 @@ body {
   color: #434455;
 }
 .header-contact-mail:is(:hover, :focus) {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .header-contact-phone {
@@ -49,12 +49,10 @@ body {
   color: #434455;
 }
 .header-contact-phone:is(:hover, :focus) {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 /**--------------------HERO BTN------------------**/
-
-
 
 .hero-button {
   width: 126px;
@@ -70,7 +68,6 @@ body {
   color: var(--second-color-buttom);
 }
 /**--------------------HERO img------------------**/
-
 
 .hero-main-h3 {
   font-size: 20px;
