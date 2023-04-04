@@ -127,7 +127,10 @@ text-transform: capitalize;
 color:var(--color-text);
 }
 .hero-photo {
-  background-color: #2e2f42;
+  background-color: var(--second-footer-color);
+}
+.hero-finish-text {
+  background-color: var(--body-background-color);
 }
 
 /**--------------------HERO BTN------------------**/
