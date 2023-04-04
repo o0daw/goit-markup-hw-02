@@ -72,7 +72,9 @@ body {
 .header-contact-phone:is(:hover, :focus) {
   color: #404bbf;
 }
-
+.adress {
+  font-style:normal;
+}
 /*----------------- HERO SECTION INDEX-------------- */
 .hero-main-index {
 }
