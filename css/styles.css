@@ -76,14 +76,13 @@ text-transform: uppercase;
 
 /*----------------- HERO SECTION INDEX-------------- */
 .hero-main-index{
-  
+
 }
 
 /**--------------------HERO BTN------------------**/
 
 .hero-button {
-  width: 126px;
-  height: 2.62;
+  font-family: "Roboto", sans-serif;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -96,7 +95,7 @@ text-transform: uppercase;
 }
 /**--------------------HERO img------------------**/
 
-.hero-main-h3 {
+.hero-main-h {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
