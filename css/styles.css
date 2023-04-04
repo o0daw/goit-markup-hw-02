@@ -126,6 +126,9 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color:var(--color-text);
 }
+.hero-photo {
+  background-color: #2e2f42;
+}
 
 /**--------------------HERO BTN------------------**/
 
