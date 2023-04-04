@@ -31,7 +31,7 @@ body {
 }
 
   .logo-studio {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -42,6 +42,7 @@ text-transform: uppercase;
 
 
 .navigation {
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -87,7 +88,7 @@ text-transform: uppercase;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
-  color: #404bbf;
+  color: var(--second-link-color);
 }
 .hero-button:is(:hover, :focus) {
   background-color: #404bbf;
