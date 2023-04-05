@@ -102,7 +102,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--color-text);
+  color: var(--color-text);
 }
 
 .hero-p {
@@ -111,20 +111,20 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-heading-third {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--color-text);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text);
 }
 .hero-heading-fourth {
   font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--color-text);
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text);
 }
 .hero-photo {
   background-color: var(--second-footer-color);
@@ -180,5 +180,16 @@ color:var(--color-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
 
+  color: var(--second-footer-color);
+}
+.logo-studio-foot {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--second-footer-color);
 }
