@@ -167,28 +167,27 @@ body {
 /**--------------------FOOTER------------------**/
 
 .foot {
-  width: 1440px;
+  /* width: 1440px;
   height: 312px;
   left: 0px;
-  top: 1764px;
+  top: 1764px; */
   background: #2e2f42;
 }
 
 .footer-bottom {
+  font-family: 'Roboto'sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  color: var(--second-footer-color);
+  color:var(--second-footer-color);
 }
 .logo-studio-foot {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-footer-color);
